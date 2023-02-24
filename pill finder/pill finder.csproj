@@ -9,4 +9,19 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\asset\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\asset\img\avatars\avatar1.jpeg" />
+    <None Include="wwwroot\lib\asset\img\avatars\avatar2.jpeg" />
+    <None Include="wwwroot\lib\asset\img\avatars\avatar3.jpeg" />
+    <None Include="wwwroot\lib\asset\img\avatars\avatar4.jpeg" />
+    <None Include="wwwroot\lib\asset\img\avatars\avatar5.jpeg" />
+    <None Include="wwwroot\lib\asset\img\profile\1.jpg" />
+    <None Include="wwwroot\lib\asset\img\profile\2.jpg" />
+    <None Include="wwwroot\lib\asset\js\script.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+  </ItemGroup>
 </Project>
