@@ -16,12 +16,12 @@
                             <h4 class="text-dark mb-4">Create an Account!</h4>
                         </div>
                         <form class="user">
-                            <div class="mb-3"><input class="form-control form-control-sm form-control-user" type="email" id="exampleInputEmail-1" aria-describedby="emailHelp" placeholder="Phaemacy Name" name="Phaemacy Name"></div>
+                            <div class="mb-3"><input asp-for="Pharmacy.name" class="form-control form-control-sm form-control-user" type="email" id="exampleInputEmail-1" aria-describedby="emailHelp" placeholder="Phaemacy Name" name="Phaemacy Name"></div>
                             <div class="row mb-3">
-                                <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="text" id="exampleFirstName" placeholder="Email" name="email"></div>
-                                <div class="col-sm-6"><input class="form-control form-control-user" type="text" id="exampleLastName" placeholder="Phone Number" name="phone"></div>
+                                <div class="col-sm-6 mb-3 mb-sm-0"><input asp-for="Pharmary.email" class="form-control form-control-user" type="text" id="exampleFirstName" placeholder="Email" name="email"></div>
+                                <div class="col-sm-6"><input asp-for="Pharmary.phone" class="form-control form-control-user" type="text" id="exampleLastName" placeholder="Phone Number" name="phone"></div>
                             </div>
-                            <div class="mb-3"><input class="form-control form-control-user" type="email" id="exampleInputEmail-3" aria-describedby="emailHelp" placeholder="Address" name="address"></div>
+                            <div class="mb-3"><input asp-for="Pharmary.address" class="form-control form-control-user" type="email" id="exampleInputEmail-3" aria-describedby="emailHelp" placeholder="Address" name="address"></div>
                             <div class="mb-3"><input class="form-control form-control-user" type="email" id="exampleInputEmail-2" aria-describedby="emailHelp" placeholder="Pharmacy Licence Number" name="licence"></div>
                             <div class="row mb-3">
                                 <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Password" name="password"></div>
