@@ -6,12 +6,12 @@ namespace pill_finder.Models
     {
         [Key]
         public int medicine_id { get; set; }
-        public int name { get; set; }
-        public int dosage { get; set; }
-        public int manufacturer { get; set; }
-        public int supplier { get; set; }
-        public int NDC { get; set; }
-        public int expiration_date { get; set; }
+        public String name { get; set; }
+        public String dosage { get; set; }
+        public string manufacturer { get; set; }
+        public String supplier { get; set; }
+        public String NDC { get; set; }
+        public string expiration_date { get; set; }
         public int unit_price { get; set; }
     }
 }
